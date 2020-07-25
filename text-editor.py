@@ -7,4 +7,4 @@ def open_file():
     )
     if not filepath:
         return
-        txt_edit.delete()
+        txt_edit.delete(1.0,tk.END)
