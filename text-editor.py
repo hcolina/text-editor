@@ -5,3 +5,4 @@ def open_file():
     filepath = askopenfilename(
         filetypes = [("Text Files", "*.txt"), ("All Files", "*.*")]
     )
+    if not 
