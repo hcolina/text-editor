@@ -6,3 +6,4 @@ def open_file():
         filetypes = [("Text Files", "*.txt"), ("All Files", "*.*")]
     )
     if not filepath:
+        return
