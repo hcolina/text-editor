@@ -3,5 +3,5 @@ from tkinter.filedialog import askopenfilename, asksaveasfilename
 
 def open_file():
     filepath = askopenfilename(
-        filetypes = 
+        filetypes = [("Text Files")]
     )
