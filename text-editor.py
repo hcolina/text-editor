@@ -16,5 +16,5 @@ def open_file():
 
 def save_file():
     filepath = asksaveasfilename(
-        defaultextension = 
+        defaultextension = "txt",
     )
