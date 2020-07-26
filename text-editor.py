@@ -28,4 +28,4 @@ def save_file():
 
 window = tk.TK()
 window.title("Simple Text Editor")
-window.rowconfigure()
+window.rowconfigure(0,)
