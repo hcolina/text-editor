@@ -36,4 +36,4 @@ fr_buttons = tk.Frame(window, relief=tk.RAISED, bd=2)
 btn_open = tk.Button(fr_buttons, text="Open", command=open_file)
 btn_save = tk.Button(fr_buttons, text="Save As...", command=save_file)
 
-btn_open.grid(row=0, column=0, sticky="ew", padx=5,)
+btn_open.grid(row=0, column=0, sticky="ew", padx=5, pady=5)
