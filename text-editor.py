@@ -10,4 +10,4 @@ def open_file():
         txt_edit.delete(1.0,tk.END)
         with open(filepath,"r") as input_file:
             text = input.file.read()
-            text_edit = 
+            text_edit
