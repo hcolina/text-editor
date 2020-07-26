@@ -17,5 +17,5 @@ def open_file():
 def save_file():
     filepath = asksaveasfilename(
         defaultextension = "txt",
-        filetypes = [("Text Files",)]
+        filetypes = [("Text Files", "*.txt")]
     )
