@@ -11,7 +11,7 @@ def open_file():
         txt_edit.delete(1.0,tk.END)
         with open(filepath,"r") as input_file:
             text = input.file.read()
-            text_edit.insert(tk.END, text)
+            txt_edit.insert(tk.END, text)
         window.title()(f"Simple Text Editor - {filepath}")
 
 def save_file():
