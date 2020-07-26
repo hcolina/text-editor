@@ -19,3 +19,4 @@ def save_file():
         defaultextension = "txt",
         filetypes = [("Text Files", "*.txt"), ("All Files", "*.*")],
     )
+    if not 
