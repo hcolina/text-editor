@@ -8,4 +8,4 @@ def open_file():
     if not filepath:
         return
         txt_edit.delete(1.0,tk.END)
-        with open(filepath,"r") as 
+        with open(filepath,"r") as input_file:
