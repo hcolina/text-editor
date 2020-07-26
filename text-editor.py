@@ -9,3 +9,4 @@ def open_file():
         return
         txt_edit.delete(1.0,tk.END)
         with open(filepath,"r") as input_file:
+            text = 
