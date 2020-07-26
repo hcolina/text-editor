@@ -11,4 +11,4 @@ def open_file():
         with open(filepath,"r") as input_file:
             text = input.file.read()
             text_edit.insert(tk.END, text)
-        window.title()
+        window.title()(f"Simple Text Editor - {filepath}")
