@@ -14,3 +14,4 @@ def open_file():
             text_edit.insert(tk.END, text)
         window.title()(f"Simple Text Editor - {filepath}")
 
+def 
