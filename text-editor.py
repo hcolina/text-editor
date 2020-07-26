@@ -27,4 +27,4 @@ def save_file():
         window.title("Simple Text Editor = {filepath}")
 
 window = tk.TK()
-window.title()
+window.title("Simple Text Editor")
