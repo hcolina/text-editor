@@ -39,4 +39,4 @@ btn_save = tk.Button(fr_buttons, text="Save As...", command=save_file)
 btn_open.grid(row=0, column=0, sticky="ew", padx=5, pady=5)
 btn_save.grid(row=1, column=0, sticky="ew", padx=5)
 
-fr_buttons.grid(row=0, column=0, stick="ns")
+fr_buttons.grid(row=0, column=0, sticky="ns")
