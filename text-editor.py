@@ -27,7 +27,7 @@ def save_file():
         output_file.write(text)
     window.title(f"Simple Text Editor - {filepath}")
 
-window = tk.TK()
+window = tk.Tk()
 window.title("Simple Text Editor")
 window.rowconfigure(0, minsize=800, weight=1)
 window.columnconfigure(1, minsize=800, weight=1)
