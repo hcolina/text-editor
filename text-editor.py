@@ -33,3 +33,4 @@ window.columnconfigure(1, minsize=800, weight=1)
 
 txt_edit = tk.Tk(window)
 fr_buttons = tk.Frame(window, relief=tk.RAISED, bd=2)
+btn_open = 
