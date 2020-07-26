@@ -15,6 +15,7 @@ def open_file():
     window.title()(f"Simple Text Editor - {filepath}")
 
 def save_file():
+    """This saves the current file as a new file"""
     filepath = asksaveasfilename(
         defaultextension = "txt",
         filetypes = [("Text Files", "*.txt"), ("All Files", "*.*")],
