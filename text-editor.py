@@ -8,11 +8,11 @@ def open_file():
     )
     if not filepath:
         return
-        txt_edit.delete(1.0,tk.END)
-        with open(filepath,"r") as input_file:
-            text = input.file.read()
-            txt_edit.insert(tk.END, text)
-        window.title()(f"Simple Text Editor - {filepath}")
+    txt_edit.delete(1.0,tk.END)
+    with open(filepath,"r") as input_file:
+        text = input.file.read()
+        txt_edit.insert(tk.END, text)
+    window.title()(f"Simple Text Editor - {filepath}")
 
 def save_file():
     filepath = asksaveasfilename(
