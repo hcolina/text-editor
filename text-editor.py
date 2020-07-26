@@ -22,4 +22,4 @@ def save_file():
     if not filepath:
         return
         with open(filepath,"w") as output_file:
-            text = txt_edit.get()
+            text = txt_edit.get(1.0, tk.END)
