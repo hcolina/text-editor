@@ -12,7 +12,7 @@ def open_file():
     with open(filepath,"r") as input_file:
         text = input_file.read()
         txt_edit.insert(tk.END, text)
-    window.title()(f"Simple Text Editor - {filepath}")
+    window.title(f"Simple Text Editor - {filepath}")
 
 def save_file():
     """This saves the current file as a new file"""
